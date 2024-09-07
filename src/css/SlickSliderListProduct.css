@@ -1,0 +1,137 @@
+.slick-list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slick-slide img {
+  max-width: 200px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-container h4 {
+  margin: 0 34px 0 34px;
+  color: #670a0c;
+}
+
+.product-card {
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  padding: 2rem;
+  height: 340px;
+  align-text: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+button.slick-prev:before,
+button.slick-next:before {
+  color: #670a0c !important;
+  font-size: 2rem;
+  transition: 2s linear;
+}
+
+.slider-container .slick-prev,
+.slider-container .slick-next {
+  position: absolute;
+  top: 50%;
+  transition: 2s linear;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slider-container .slick-prev {
+  left: 10px;
+}
+
+.slider-container .slick-next {
+  right: 10px;
+}
+
+.product-card .card-body-action button {
+  display: none;
+}
+
+.product-card:hover .card-body-action button {
+  display: block;
+}
+
+.product-card:hover {
+  height: 370px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-hover {
+  text-decoration: none;
+  color: #670a0c;
+}
+
+.card-hover:hover {
+  text-decoration: none;
+  color: #670a0c;
+}
+
+.card-body-action {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
+  margin-bottom: 10px;
+}
+
+.card-body-action .card-link {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  color: #670a0c !important;
+  width: 10rem;
+  font-size: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card-body-action .card-link-buy {
+  border: 1px solid #670a0c;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.card-link-buy:hover,
+.card-link:hover {
+  transition: 0.24s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1) !important;
+  background-color: #670a0c !important;
+  color: #fefdfd !important;
+  border-color: #670a0c !important;
+}
+
+.card-image-slick {
+  max-width: 130px;
+  max-height: 130px;
+  object-fit: contain;
+}
+
+.slick-initialized .slick-slide {
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}

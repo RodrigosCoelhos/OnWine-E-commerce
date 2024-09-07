@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+
+.color-nav {
+  background-color: #c9c8c8;
+  box-shadow: 0px 3px 20px 5px #670a0c;
+}
+
+.navbar-collapse {
+  justify-content: space-between !important;
+}
+
+.main-nav {
+  margin: 0 10px 0 5px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #670a0c !important;
+}
+
+.agrupamento-direita {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .agrupamento-direita {
+    justify-content: center;
+    border-top: 1px solid #670a0c;
+  }
+}
+
+@media (max-width: 400px) {
+  .agrupamento-direita {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.custom-search-button {
+  margin-left: 8px;
+}
+
+a.nav-link {
+  color: #670a0c;
+  transition: 0.8s;
+  align-items: center;
+  text-align: center;
+}
+
+a.nav-link:hover {
+  box-shadow: 0 2px 0 #670a0c;
+}
+
+.logo {
+  font-family: "Libre Barcode 39 Text", cursive;
+  font-size: 34px !important;
+  font-weight: bold;
+  color: #670a0c !important;
+  margin-left: 18px !important;
+}
+
+#seucarrinho {
+  padding: 12px 12px 12px 12px;
+  margin-right: 1rem;
+  border: 1px solid #670a0c;
+  border-radius: 100px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: transparent;
+  position: relative;
+  color: #670a0c;
+}
+
+#seucarrinho svg,
+#logar-conta svg {
+  width: 22px;
+  height: 20px;
+}
+
+#logar-conta {
+  background-color: transparent;
+  border: 1px solid #670a0c;
+  border-radius: 100px;
+  padding: 12px 12px 12px 12px;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #670a0c;
+}
+
+#seucarrinho:hover,
+#logar-conta:hover {
+  background-color: #670a0c;
+  color: #fefdfd;
+  transition: 0.24s ease-in-out;
+}
+
+.btn-outline-dark {
+  border-radius: 2rem;
+}
+
+.custom-search-button {
+  background-color: transparent !important;
+  border-color: #670a0c !important;
+  color: #670a0c !important;
+  border-radius: 12px !important;
+  border: 1px solid #670a0c !important;
+}
+
+.custom-search-button:hover {
+  background-color: #670a0c !important;
+  color: #fefdfd !important;
+}
+
+.cart-counter {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #670a0c;
+  color: #fefdfd;
+  font-size: 12px;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

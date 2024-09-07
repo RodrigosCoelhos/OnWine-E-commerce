@@ -1,0 +1,43 @@
+.content-page-404 {
+  width: 100%;
+  background-image: url("/assets/bodytop.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  padding-bottom: 4.5rem;
+}
+.content-page-404 img {
+  width: 30%;
+  margin: 3rem;
+}
+
+.content-page-404 h2 {
+  margin: 0.7rem;
+}
+@media (max-width: 1020px) {
+  .content-page-404 img {
+    width: 38%;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .content-page-404 img {
+    width: 55%;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .content-page-404 img {
+    width: 74%;
+    margin: 0.5rem;
+  }
+}
+
+.page-not-found-text-2 {
+  font-size: 1.22rem;
+}
+
+.link-not-found {
+  font-size: 1rem;
+}

@@ -1,0 +1,23 @@
+.button-clean-cart {
+  margin-top: 20px;
+  background-color: rgba(136, 136, 136, 0.1);
+
+  border: 1px solid #252525;
+
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  transition: all 0.3s ease 0s;
+}
+
+.button-clean-cart span svg {
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+
+.button-clean-cart:hover {
+  background-color: #bca76e;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+  color: #252525 !important;
+  border-color: #bba66e !important;
+  transition: 0.3s ease-in-out;
+}

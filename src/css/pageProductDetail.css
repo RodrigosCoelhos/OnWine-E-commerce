@@ -1,0 +1,166 @@
+.container-page-product {
+  width: 100%;
+  background-image: url("/assets/bodytop.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.route-Detail {
+  padding-top: 8%;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+.route-Detail a {
+  text-decoration: underline dotted;
+  color: #242424;
+}
+
+.content-detalhe-produto {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  align-items: center;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .content-detalhe-produto {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-text-Detail-product {
+  grid-column: 1 / -1;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-text-Detail-product p {
+  padding: 0 20px 20px 20px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.75;
+  align-items: center;
+  text-align: center;
+}
+
+.info-produto-com-foto {
+  width: 100% !important;
+  align-items: center;
+  text-align: center;
+}
+
+.lateral-detalhe-produto {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lateral-detalhe-produto hr {
+  width: 93%;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #252525;
+}
+
+#h6-quantidade h6 {
+  font-size: 1.2rem;
+}
+
+.content-radio-colors {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin: 1rem;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  border-color: black;
+  border: 3px solid black;
+}
+
+.info-produto-com-foto {
+  width: 200%;
+  position: relative;
+}
+
+.info-produto-com-foto p {
+  padding: 0rem 4rem 2rem 4rem;
+}
+
+.route-Detail {
+  float: left;
+}
+
+#extra-vantagens {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: calc(33.33% - 2rem);
+  width: 90%;
+  gap: 2rem;
+}
+
+#extra-vantagens span {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 94px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-body {
+    flex-basis: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-body {
+    flex-basis: calc(100% - 2rem);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .content-detalhe-produto {
+    gap: 2rem;
+    grid-template-columns: repeat(1, fr);
+    width: 100%;
+  }
+
+  #extra-vantagens {
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #extra-vantagens span {
+    font-size: 15px;
+    flex-direction: columns;
+  }
+
+  .content-radio-colors {
+    width: 100%;
+  }
+}
